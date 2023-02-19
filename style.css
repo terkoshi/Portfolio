@@ -1,0 +1,73 @@
+:root{
+    --bg: #0e0e0e;
+    --text: #fff;
+}
+
+html,body{
+    color: var(--text);
+    background-color: #000000; 
+    background-repeat: no-repeat;
+    font-family: 'Consolas', monospace;
+}
+.center{
+    left: 50%;
+    top: 50%;
+    position: fixed;
+    transform: translate(-50%, -50%);
+}
+.center-words{
+    left: 50%;
+    top: 55%;
+    position: fixed;
+    text-align: center;
+    transform: translate(-50%, -50%);
+}
+.banner-a{
+
+}
+.banner{
+    opacity: 0%;
+    width: 1200px;
+    height: auto;
+    animation: bannerF 0.01s infinite;
+}
+#links{
+    color: var(--text);
+    top: 10%;
+    text-decoration: none;
+}
+#links:hover{
+    font-weight: bold;
+    animation: hoverL 1s;
+    color: #cc00ff;
+}
+@keyframes hoverL{
+    0%{
+        color: rgb(162, 0, 255);
+    }
+    50%{
+        color: #cc00ff;
+
+    }
+    100%{
+        color: #cc00ff;
+    }
+}
+@keyframes bannerF
+{
+ 0%{
+    opacity: 0%;
+    
+    
+ }
+/* 50%{
+    top: 26%;
+    left: 25%;
+    
+ }*/
+ 100%{
+ 
+    opacity: 100%;
+    
+ }
+}

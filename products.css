@@ -1,0 +1,24 @@
+#content * {
+    color: rgb(226, 226, 226);
+}
+
+#content th, #content  td {
+    border: 1px solid rgb(103, 2, 106);
+    border-collapse: separate;
+    padding: 10px;
+    text-align: center;
+}
+#content table{
+    border: 1px solid rgb(241, 22, 215);
+    border-collapse: separate;
+    padding: 10px;
+    text-align: center;
+    border-radius: 1%;
+}
+   
+/*#content table:hover, #content table:hover th:hover, #content table:hover td:hover {
+    border: 1px solid rgb(190, 11, 196);
+    border-collapse: collapse;
+    padding: 10px;
+    text-align: center;
+}\*
