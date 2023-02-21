@@ -22,8 +22,30 @@ html,body{
     text-align: center;
     transform: translate(-50%, -50%);
 }
-.banner-a{
+.center-btn{
+    left: 50%;
+    top: 55%;
+    position: fixed;
+    text-align: center;
+    transform: translate(-50%, -50%);
+}
 
+.button{
+    background: #303030;
+    color:rgb(255, 255, 255);
+    border-radius: 20px;
+    padding: 15px;
+    border-width: 2px;
+    border-color: hsl(0, 0%, 100%);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+.button:hover{
+    background: #282828;
+    color:#b700ff;
+    border-color: #d400ff;
+    box-shadow: 1px 1px 100px 5px  #a200ff;
+  
 }
 .banner{
     opacity: 0%;
